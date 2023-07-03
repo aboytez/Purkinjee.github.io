@@ -1,0 +1,122 @@
+/*
+Name: Alexis Cruz Aboytes
+Section: 002
+Description: Recreate a webpage, and show that we understand layout, positioning, and the CSS box model.
+*/
+body {
+  background-image: url("background.png");
+  font-size: 8pt;
+  font-family: "Tahoma", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#Banner {
+  background-image: url("bannerbackground.png");
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  height:50px;
+}
+#MovieName{
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  font-family: "Tahoma", sans-serif;
+}
+#ContentArea {
+  width: 800px;
+  border: 4px solid grey;
+  margin: auto;
+  overflow: auto;
+  word-wrap: break-word;
+ }
+#LeftSection {
+  width: 550px;
+  float: left;
+}
+#TopLeftSection{
+  background-image: url("rottenbackground.png");
+  background-repeat: repeat-x;
+  height: 83px; 
+}
+#TopLeftSection img {
+  float:left;
+}
+#RottenPercentage{
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+#ReviewCount {
+  font-size: 8pt;
+  color: white;
+}
+.ReviewColumns {
+  column-count: 2;
+  column-width: 258.5px;
+  column-gap: 2%;
+  margin: 2%;
+  overflow: hidden;
+}
+.ReviewBox {
+  font-weight: bold;
+  font-size: 8pt;
+  background-color: #E1D697;
+  border: 2px solid grey;
+  overflow: hidden;
+  padding: 8px;
+}
+.ReviewBox img {
+  margin-right: 5px;
+  float: left;
+}
+.ReviewerInfo {
+  font-style: italic;
+  margin-bottom: 3em;
+}
+.ReviewerInfo img{
+  padding-right: 5px;
+  float: left;
+}
+.RightSection-GeneralOverview {
+  float:right;
+  width: 250px;
+  background-color: #a2b964;
+  font-size: 8pt;
+  font-family: "Arial";
+}
+.RightSection-GeneralOverview dl{
+  padding: 10px;
+  margin: 0;
+}
+.RightSection-GeneralOverview dt{
+  font-weight: bold;
+  padding-bottom: 1em; 
+}
+.RightSection-GeneralOverview dd{
+  margin-left: 0;
+  padding-bottom: 1em; 
+}
+#PageShowReviews {
+  background-color: #a2b964;
+  text-align: center;
+  padding: 5px;
+  clear: both;
+}
+.ReviewRange {
+  margin: 0;
+  font-size: 8pt;
+}
+#Validation {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+#Validation img {
+  padding-right: 5px;
+  float: left;
+  height:31px;
+}
+
+
